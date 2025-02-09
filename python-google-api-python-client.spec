@@ -1,5 +1,5 @@
 Name:		python-google-api-python-client
-Version:	2.159.0
+Version:	2.160.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/g/google-api-python-client/google_api_python_client-%{version}.tar.gz
 Summary:	Google API Client Library for Python
@@ -12,9 +12,6 @@ BuildArch:	noarch
 
 %description
 Google API Client Library for Python
-
-%prep
-%autosetup -p1 -n google_api_python_client-%{version}
 
 %files
 %{py_sitedir}/apiclient
